@@ -5,7 +5,7 @@ import { useLocation, useNavigate } from "react-router-dom";
 /**
  * Results screen:
  * - calls GET /api/customers/v1?email=...
- * - shows customer details          
+ * - shows customer details             
  */
 export default function ResultsScreen() {
   const navigate = useNavigate();
